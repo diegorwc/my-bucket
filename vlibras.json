@@ -1,0 +1,35 @@
+{
+    "homepage": "http://www.vlibras.gov.br/",
+    "version": "5.1.0",
+    "license": "https://svn.nmap.org/nmap/COPYING",
+    "url": "http://vlibras.gov.br/vlibras_instalador_5.1.0.exe",
+    "hash": "671D33EE50D41A0BCB84803A9C1DCF0083775AE70EF76026CE345D29511BF02B",
+    "extract_dir": "vlibras",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "uninstaller": {
+        "file": "Uninstall.exe",
+        "args": "/S"
+    },
+    "env_add_path": "bin",
+    "bin": [
+        "vlibrasPlayer.exe"
+    ],
+    "shortcuts": [
+        [
+            "vlibrasPlayer.exe",
+            "VLibras"
+        ]
+    ],
+    "checkver": {
+        "url": "vlibras",
+        "re": "vlibras-([\\d.]+)-setup.exe"
+    },
+    "autoupdate": {
+        "url": "http://vlibras.gov.br/vlibras_instalador_$version.exe"
+    }
+}
