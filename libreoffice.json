@@ -13,6 +13,14 @@
     [
       "LibreOfficeWriterPortable.exe",
       "LibreOffice Writer"
+    ],
+    [
+      "LibreOfficeCalcPortable.exe",
+      "LibreOffice Calc"
+    ],
+    [
+      "LibreOfficeImpressPortable.exe",
+      "LibreOffice Impress"
     ]
   ]
 }
