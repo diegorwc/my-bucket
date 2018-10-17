@@ -6,12 +6,12 @@
     "url": "https://pt-br.libreoffice.org/sobre-nos/licencas/"
   },
   "version": "6.0.6",
-  "url": "http://mirror.pop-sc.rnp.br/mirror/tdf/libreoffice/stable/6.0.6/win/x86_64/LibreOffice_6.0.6_Win_x64.msi",
-  "hash": "7A4746AD788D15FB78F3E76BD4F6BFCDF5311F96E31B7969952A764C5ADCA08F",
-  "installer": {
-    "args": [
-      "/quiet"
-    ],
-    "keep": "true"
-  }
+  "url": "http://172.16.105.90/libreoffice.zip",
+  "hash": "864F972A7C1D1BEA1813BB3C19F9192924E267A98E8B870D9643F1524752814D",
+  "extract_dir": "LibreOfficePortablePrevious",
+  "bin": [
+    "LibreOfficeWriterPortable",
+    "LibreOfficeCalcPortable",
+    "LibreOfficeImpressPortable"
+  ]
 }
