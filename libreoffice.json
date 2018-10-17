@@ -10,8 +10,14 @@
   "hash": "864F972A7C1D1BEA1813BB3C19F9192924E267A98E8B870D9643F1524752814D",
   "extract_dir": "LibreOfficePortablePrevious",
   "bin": [
-    "LibreOfficeWriterPortable",
-    "LibreOfficeCalcPortable",
-    "LibreOfficeImpressPortable"
+    "LibreOfficePortablePrevious\\LibreOfficeWriterPortable",
+    "LibreOfficePortablePrevious\\LibreOfficeCalcPortable",
+    "LibreOfficePortablePrevious\\LibreOfficeImpressPortable"
+  ],
+  "shortcuts": [
+    [
+      "LibreOfficePortablePrevious\\LibreOfficeWriterPortable",
+      "LibreOffice Writer"
+    ]
   ]
 }
