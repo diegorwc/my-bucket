@@ -1,0 +1,16 @@
+{
+  "homepage": "https://pt-br.libreoffice.org/",
+  "description": "O LibreOffice é uma poderosa suíte de produtividade de escritório com planilha, editor de texto, editor de apresentação e muito mais.",
+  "license": {
+    "identifier": "Free Software",
+    "url": "https://pt-br.libreoffice.org/sobre-nos/licencas/"
+  },
+  "version": "6.0.6",
+  "url": "http://mirror.pop-sc.rnp.br/mirror/tdf/libreoffice/stable/6.0.6/win/x86_64/LibreOffice_6.0.6_Win_x64.msi",
+  "hash": "7A4746AD788D15FB78F3E76BD4F6BFCDF5311F96E31B7969952A764C5ADCA08F",
+  "installer": {
+    "args": [
+      "/quiet"
+    ]
+  }
+}
