@@ -1,35 +1,18 @@
 {
-    "homepage": "http://www.vlibras.gov.br/",
-    "version": "5.1.0",
-    "license": "https://svn.nmap.org/nmap/COPYING",
-    "url": "http://vlibras.gov.br/vlibras_instalador_5.1.0.exe",
-    "hash": "671D33EE50D41A0BCB84803A9C1DCF0083775AE70EF76026CE345D29511BF02B",
-    "extract_dir": "vlibras",
-    "installer": {
-        "args": [
-            "/S",
-            "/D=$dir"
-        ]
-    },
-    "uninstaller": {
-        "file": "Uninstall.exe",
-        "args": "/S"
-    },
-    "env_add_path": "bin",
-    "bin": [
-        "vlibrasPlayer.exe"
-    ],
-    "shortcuts": [
-        [
-            "vlibrasPlayer.exe",
-            "VLibras"
-        ]
-    ],
-    "checkver": {
-        "url": "vlibras",
-        "re": "vlibras-([\\d.]+)-setup.exe"
-    },
-    "autoupdate": {
-        "url": "http://vlibras.gov.br/vlibras_instalador_$version.exe"
-    }
+  "homepage": "http://www.vlibras.gov.br/",
+  "description": "O VLibras é uma suíte de ferramentas utilizadas na tradução automática do Português para a Língua Brasileira de Sinais",
+  "license": {
+    "identifier": "Free Software",
+    "url": "http://www.vlibras.gov.br/#vlibras"
+  },
+  "version": "5.1.0",
+  "url": "http://172.16.105.90/vlibras.7z",
+  "hash": "DEA62E9376A16F44ADDE5E875D68609B9D74B5DC6A2CF3C5B30B077B288523C3",
+  "extract_dir": "Apps",
+  "shortcuts": [
+    [
+      "2.0\\LC9EOGAH.RCM\\3MX12Q94.NY9\\VLibras\\Player\\vlibrasPlayer.exe",
+      "VLibras"
+    ]
+  ]
 }
