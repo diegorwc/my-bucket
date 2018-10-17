@@ -9,14 +9,9 @@
   "url": "http://172.16.105.90/libreoffice.zip",
   "hash": "864F972A7C1D1BEA1813BB3C19F9192924E267A98E8B870D9643F1524752814D",
   "extract_dir": "LibreOfficePortablePrevious",
-  "bin": [
-    "LibreOfficePortablePrevious\\LibreOfficeWriterPortable.exe",
-    "LibreOfficePortablePrevious\\LibreOfficeCalcPortable.exe",
-    "LibreOfficePortablePrevious\\LibreOfficeImpressPortable.exe"
-  ],
   "shortcuts": [
     [
-      "LibreOfficePortablePrevious\\LibreOfficeWriterPortable.exe",
+      "LibreOfficeWriterPortable.exe",
       "LibreOffice Writer"
     ]
   ]
